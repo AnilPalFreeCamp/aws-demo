@@ -1,4 +1,4 @@
-package com.aexp.gms.smart.swagger;
+package com.demo.swagger;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +12,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-@Profile({"Dev","SIT"})
 public class SwaggerConfig {
 	@Bean
 	public Docket api() {
